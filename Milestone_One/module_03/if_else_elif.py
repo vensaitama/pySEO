@@ -1,0 +1,19 @@
+marks = int(input("Enter your marks:\t"))
+
+if marks >100:
+    print("Invalid number")
+elif marks >= 80:
+    print ("A+")
+elif marks >= 70:
+    print ("A")
+elif marks >= 60:
+    print ("A-")
+elif marks >= 50:
+    print ("B")
+elif marks >= 40:
+    print ("C")
+elif marks >= 33:
+    print ("D")
+else:
+    print ("F")
+
